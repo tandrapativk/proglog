@@ -30,7 +30,7 @@ type ProduceRequest struct {
 	Record Record `json:"record"`
 }
 
-type ProduceRequest struct {
+type ProduceResponse struct {
 	Offset uint64 `json:"offset"`
 }
 
